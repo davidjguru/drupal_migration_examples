@@ -5,12 +5,12 @@ source:
   data_rows:
     -
       unique_id: 1
-      article_title: 'Title for migrated node - One'
-      article_content: 'Lorem fistrum mamaar se calle ustée tiene musho pelo.'
+      page_title: 'Title for migrated node - One'
+      page_content: 'Lorem fistrum mamaar se calle ustée tiene musho pelo.'
     -
       unique_id: 2
-      article_title: 'Title for migrated node - Two'
-      article_content: 'Se calle ustée caballo blanco caballo negroorl.'
+      page_title: 'Title for migrated node - Two'
+      page_content: 'Se calle ustée caballo blanco caballo negroorl.'
   ids:
     unique_id:
       type: integer
