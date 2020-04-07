@@ -1,9 +1,12 @@
 uuid: 1bcec3e7-0a49-4473-87a2-6dca09b91aba
+id: article_csv_module
+label: 'Migrating articles'
 langcode: en
 status: true
-dependencies: {  }
-id: article_csv_import
-label: 'Migrating articles'
+dependencies:
+  enforced:
+    module:
+      - migration_csv_module
 source:
   plugin: csv
   path: modules/custom/migration_csv_module/csv/migration_csv_articles.csv
